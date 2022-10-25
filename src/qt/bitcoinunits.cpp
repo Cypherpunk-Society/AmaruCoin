@@ -41,9 +41,9 @@ QString BitcoinUnits::name(int unit)
 
     switch(unit)
     {
-    case BTC: return QString("YAPE");
-    case mBTC: return QString("mYAPE");
-    case uBTC: return QString::fromUtf8("μYAPE");
+    case BTC: return QString("AMARU");
+    case mBTC: return QString("mAMARU");
+    case uBTC: return QString::fromUtf8("μAMARU");
     default: return QString("???");
     }
 }
@@ -52,9 +52,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Yapecoins");
-    case mBTC: return QString("Milli-Yapecoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Yapecoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case BTC: return QString("Amarucoins");
+    case mBTC: return QString("Milli-Amarucoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-Amarucoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }
