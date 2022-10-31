@@ -1,0 +1,32 @@
+Genesis Block Input Parameters
+
+Timestamp Message   : El origen de los Amarus es el arcoiris
+Timestamp           : 1667229965 
+Block Rewards       : 50
+PUB Secretkey       : 666184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+
+------------------------------Main Net--------------------------------------------------------
+
+Time Stamp        : 1667229965
+Bits            : 0x1e0ffff0
+Nonce            : 2001459893
+Merkle  Hash    : 0x3fe6b394e56e74483cb83e0191046c8c32cda7e62979e9a2a27283a5ab8b7c7f
+Genesis Hash    : 0x63c0630cf5d1fdc133d554e0c0e22e32259adab67d5e0f33096257d85d3de4b3 
+
+
+------------------------------Test Net--------------------------------------------------------
+
+Time Stamp       : 1667229965
+Bits            : 0x1e0ffff0
+Nonce            : 3310986
+Merkle  Hash    : 0x3fe6b394e56e74483cb83e0191046c8c32cda7e62979e9a2a27283a5ab8b7c7f
+Genesis Hash    : 0x2f670f3b50a90ed440600c56fc1cc6692591ddf93747d8138b504515e44b8448 
+
+
+------------------------------Regression Test Net--------------------------------------------------------
+
+Time Stamp       : 1667229965
+Bits            : 0x207fffff
+Nonce            : 1
+Merkle  Hash    : 0x3fe6b394e56e74483cb83e0191046c8c32cda7e62979e9a2a27283a5ab8b7c7f
+Genesis Hash    : 0x20d5b5b3a4b3665963485d3ec0c09d8723a890559034b0a5a955e8e23dca5303

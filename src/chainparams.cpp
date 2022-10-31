@@ -50,8 +50,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Los_Amarus_tienen_sus_origenes_en_el_Arcoiris";
-    const CScript genesisOutputScript = CScript() << ParseHex("080194311fb689ad5023690c80q3a49c8f13f7d45b8c351fzxzc8br4a8p4d3eb8b10f4d0604rt57dyu601aaa0f470268fe1b51850b4acf21b456b45070fj7b03w9") << OP_CHECKSIG;
+    const char* pszTimestamp = "El origen de los Amarus es el arcoiris";
+    const CScript genesisOutputScript = CScript() << ParseHex("666184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -77,7 +77,7 @@ public:
         consensus.BIP66Height = 811879; // 7aceee012833fa8952f8835d8b1b3ae233cd6ab08fdb27a771d2bd7bdc491894
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
-        consensus.nPowTargetSpacing = 1 * 60; //BLOCK INTERVAL 1 MIN
+        consensus.nPowTargetSpacing = 2 * 60; //BLOCK INTERVAL 2 MIN
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 6048; // 75% of 8064
