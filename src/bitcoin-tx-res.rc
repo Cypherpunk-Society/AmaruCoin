@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    "litecoin-tx (CLI Litecoin transaction editor utility)"
+            VALUE "CompanyName",        "Amarucoin"
+            VALUE "FileDescription",    "amarucoin-tx (CLI Amarucoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litecoin-tx"
+            VALUE "InternalName",       "amarucoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litecoin-tx.exe"
-            VALUE "ProductName",        "litecoin-tx"
+            VALUE "OriginalFilename",   "amarucoin-tx.exe"
+            VALUE "ProductName",        "amarucoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
