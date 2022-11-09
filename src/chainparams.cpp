@@ -120,7 +120,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x3fe6b394e56e74483cb83e0191046c8c32cda7e62979e9a2a27283a5ab8b7c7f"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("127.0.0.1", "127.0.0.1", true)); //IP  SERVER 1
+        vSeeds.push_back(CDNSSeedData("62.210.116.11", "62.210.116.11", true)); //IP  SERVER 1
         // vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
         // vSeeds.push_back(CDNSSeedData("amarucointools.com", "dnsseed.amarucointools.com"));
         // vSeeds.push_back(CDNSSeedData("amarucoinpool.org", "dnsseed.amarucoinpool.org"));
