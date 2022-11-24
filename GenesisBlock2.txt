@@ -1,0 +1,35 @@
+
+Genesis Block Input Parameters
+			
+Timestamp Message   : El_origen_de_los_Amarus_es_el_arcoiris
+Timestamp           : 1669262740 
+Block Rewards       : 50
+PUB Secretkey       : 666684710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+    
+    
+    
+------------------------------Main Net--------------------------------------------------------
+  
+Time Stamp	    : 1669262740
+Bits			: 0x1e0ffff0
+Nonce			: 2002243450
+Merkle  Hash	: 0xdfd4d84be513ee5a5bf8551a212c39ca96eeaa478aa39f47cf04e6d9b92f0ba9
+Genesis Hash	: 0xf80a190e7070400691533e50baf6310983e6e250e3c44c8eec23fce20feda6ff 
+  
+     
+------------------------------Test Net--------------------------------------------------------
+     
+Time Stamp	   : 1669262740
+Bits			: 0x1e0ffff0
+Nonce			: 331939
+Merkle  Hash	: 0xdfd4d84be513ee5a5bf8551a212c39ca96eeaa478aa39f47cf04e6d9b92f0ba9
+Genesis Hash	: 0x39e1d1c872a5d88bb20f1848d0ada5686e89f13e60b0afceec0b1c47240aa598 
+     
+     
+------------------------------Regression Test Net--------------------------------------------------------
+     
+Time Stamp	   : 1669262740
+Bits			: 0x207fffff
+Nonce			: 0
+Merkle  Hash	: 0xdfd4d84be513ee5a5bf8551a212c39ca96eeaa478aa39f47cf04e6d9b92f0ba9
+Genesis Hash	: 0x68131f6700abbbe2f224846ca1e2a8b2a70542fcfc6bb123e143af6aa069b3f2 
