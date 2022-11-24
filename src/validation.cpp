@@ -1172,9 +1172,9 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 
     CAmount nSubsidy;
     
-    // block reward 2% to the 3 founders
-    if( nHeight <= 3)
-        nSubsidy = 700000000 * COIN;
+    // block reward 1% 
+    if( nHeight == 1)
+        nSubsidy = 350000000 * COIN;
     else
         nSubsidy = 50 * COIN;
 
